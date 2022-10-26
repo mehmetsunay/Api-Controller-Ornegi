@@ -14,7 +14,7 @@ namespace HospitalFinder
         public int id { get; set; }
         [StringLength(50)]
         public string Name { get; set; }
-        [StringLength(50)]
+        [StringLength(40)]
         public string City { get; set; }
     }
 }
